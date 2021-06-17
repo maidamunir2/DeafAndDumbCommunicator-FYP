@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Cam_custom_itf"
+    android:background="@drawable/signin_background"
+    >
+
+    <EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+        android:hint="Enter Text to Call"
+        android:backgroundTint="@color/GreyShade"
+        android:padding="23dp"
+        android:id="@+id/edit_View"
+    />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_View"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="185dp"
+        android:padding="30dp"
+        android:gravity="center"
+        android:textColor="@color/GreenText" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/submit_btn"
+        android:text="Submit"
+        android:textSize="25dp"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/GreenText"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

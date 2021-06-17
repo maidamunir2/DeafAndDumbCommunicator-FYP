@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "654674798594",
+    "project_id": "deafanddumbcommunicator-96adf",
+    "storage_bucket": "deafanddumbcommunicator-96adf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654674798594:android:b4777c46a96186ae3e5f1b",
+        "android_client_info": {
+          "package_name": "com.example.deafanddumbcommunicator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654674798594-5f3u9mke8atn1bl8ebfja65c674ejtme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsqIXjXdfeL5exHyY-1leqaCAHtqpd3ZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654674798594-5f3u9mke8atn1bl8ebfja65c674ejtme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
